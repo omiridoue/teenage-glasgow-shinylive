@@ -259,12 +259,12 @@ server <- function(input, output, session){
       sg_noverlap_p()
   })
   
-  observeEvent(input$download, {
-    sg_export_svg_p(sigmajsProxy("sg"), labels=TRUE)
-  })
-  observeEvent(input$png, {
-    sg_export_img_p(sigmajsProxy("sg"))
-  })
+#  observeEvent(input$download, {
+#    sg_export_svg_p(sigmajsProxy("sg"), labels=TRUE)
+#  })
+#  observeEvent(input$png, {
+#    sg_export_img_p(sigmajsProxy("sg"))
+#  })
   
 }
 
