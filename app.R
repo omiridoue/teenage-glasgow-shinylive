@@ -116,16 +116,16 @@ ui <- fluidPage(
                       easyClose = TRUE,
                       fade = TRUE,
                       size = "s")),
-    fluidRow(actionButton("download", "Save SVG"), actionButton("png", "Save PNG"))%>% 
-      helper(type = "inline",
-             title = "Save your Graphs!",
-             content = c("You can save your Graph Visual. Bear in mind this works like
-                         taking a screenshot of the plot area so do zoom out and check
-                         all your nodes are in frame!"),
-             buttonLabel = "Got it!",
-             easyClose = T,
-             fade = TRUE,
-             size = "s"),
+#    fluidRow(actionButton("download", "Save SVG"), actionButton("png", "Save PNG"))%>% 
+#      helper(type = "inline",
+#             title = "Save your Graphs!",
+#             content = c("You can save your Graph Visual. Bear in mind this works like
+#                         taking a screenshot of the plot area so do zoom out and check
+#                         all your nodes are in frame!"),
+#             buttonLabel = "Got it!",
+#             easyClose = T,
+#             fade = TRUE,
+#             size = "s"),
     hr(),
     h4("References:"),
     h5("West and Sweeting (1995), Michell and Amos (1997), Pearson and Michell (2000),
